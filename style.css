@@ -1,0 +1,7 @@
+.tile img  {
+  visibility: hidden;
+}
+
+.tile:active img {
+  visibility: visible;
+}
