@@ -1,0 +1,32 @@
+body {
+  background-color: teal;
+}
+
+#board {
+  width: 400px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+#board .tile {
+  background-color: silver;
+}
+
+#board .tile,
+#board .tile img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+/*  margin: 5px;*/
+}
+
+#board .tile img  {
+  visibility: hidden;
+}
+
+#board .tile.active img {
+  visibility: visible;
+}
